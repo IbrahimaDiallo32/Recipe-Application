@@ -16,9 +16,11 @@
   <script src=""></script>
   <header>
     <!--Navbar to be implemented when we have a framework-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg purple-accent">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">SITE NAME</a>
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Bootstrap" width="90" height="45"></img>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,9 +48,7 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <button class="btn btn-warning" type="submit">Search</button>
           </form>
         </div>
       </div>
@@ -77,7 +77,7 @@
             dinners to delicious deserts, record them all in one place
           </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+            <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">
               Create Recipie
             </button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
@@ -89,7 +89,7 @@
 
       <h1 class="display-4 fw-bold text-center pb-4">Recent Recipies</h1>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-2">
         <div class="col">
           <div class="card">
             <img
@@ -143,12 +143,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="outerContainer">
-      <h1>Welcome To Recipe Home Page</h1>
-      <p>Click <button href="/AddRecipe.html">hee</button> to add a recipe!</p>
-      <p>Click <button>here</button> to create a new user!</p>
     </div>
   </body>
 </html>
